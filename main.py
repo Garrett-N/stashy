@@ -6,6 +6,9 @@ stash = stashy.connect(msbbURL, token=msbbToken)
 
 # grab AWS project
 aws = next((item for item in stash.projects.list() if item['key'] == 'AWS'))
-stash.projects[aws].repos.list()
+aws_repos = stash.projects[aws.get('key')].repos.list()
 
-print("done")
+#i'm only intrested in two repos (for now)
+
+
+
