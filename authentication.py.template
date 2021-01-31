@@ -1,0 +1,8 @@
+# Jira Credentials
+jiraPassword = ""
+jiraUsername= ""
+jiraURL = ""
+
+# Bitbucket Credentials (using authentication token)
+msbbURL=""
+msbbToken=""
